@@ -332,12 +332,12 @@ const styles = StyleSheet.create({
     flexDirection: isAndroidRTL ? 'row-reverse' : 'row',
   },
   paginationContainer: {
-    position: 'absolute',
-    bottom: 16,
-    left: 16,
-    right: 16,
-    justifyContent: 'center',
-  },
+        position: 'absolute',
+        justifyContent: 'center',
+        height: '100%',
+        width: '100%',
+        top: 30,
+    },
   paginationDots: {
     height: 16,
     margin: 16,
